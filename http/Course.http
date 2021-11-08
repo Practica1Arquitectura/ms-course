@@ -1,0 +1,27 @@
+### Test Course
+GET http://localhost:8743/v3/api/course/test
+Accept: application/json
+
+### Registrar Curso por Ms-Course
+POST http://localhost:8743/v3/api/course/save
+Content-Type: application/json
+
+{
+  "teacherId": 1,
+  "studentId": 1,
+  "course": 2,
+  "gradeDescription": "El curso es de Matematicas"
+}
+
+### Registrar Curso por Ms-Gateway
+POST http://localhost:8181/ms-course/v3/api/course/save
+Content-Type: application/json
+
+{
+  "teacherId": 1,
+  "studentId": 1,
+  "course": 2,
+  "gradeDescription": "El curso es de Matematicas"
+}
+
+
