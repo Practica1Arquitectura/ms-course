@@ -1,11 +1,11 @@
 spring:
   application:
-    name: ms-course
+    name: ms-course-sin-config-server
   h2:
     console:
       enabled: true
 server:
-  port: 8743
+  port: 8888
 
 eureka:
   instance:
