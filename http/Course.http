@@ -8,8 +8,8 @@ Content-Type: application/json
 
 {
   "teacherId": 1,
-  "studentId": 1,
-  "course": 2,
+  "studentId": 3,
+  "course": 1,
   "gradeDescription": "El curso es de Matematicas"
 }
 
@@ -24,4 +24,6 @@ Content-Type: application/json
   "gradeDescription": "El curso es de Matematicas"
 }
 
-
+### Obtener todos los estudiantes
+GET http://localhost:8743/v3/api/course/students?course=1
+Accept: application/json
