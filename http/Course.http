@@ -20,7 +20,7 @@ Content-Type: application/json
 {
   "teacherId": 1,
   "studentId": 1,
-  "course": 2,
+  "course": 1,
   "gradeDescription": "El curso es de Matematicas"
 }
 
