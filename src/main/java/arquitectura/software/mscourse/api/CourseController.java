@@ -40,6 +40,7 @@ public class CourseController {
 
     @RequestMapping(path = "/students",method = RequestMethod.GET)
     public List<Student> getAllStudentByCourse(@RequestParam Integer course) throws Exception{
+        LOGGER.info("Se obtiene la lista de los estudiantes de un curso");
         return courseService.getAllStudentByCourse(course);
     }
 
